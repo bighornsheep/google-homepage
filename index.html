@@ -1,8 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>Google</title>
+        <style>
+            #googlelogo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                top: 200px;
+            }
+            #searchform {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                top: 250px;
+                width: 500px;
+                border-radius: 20px;
+                height: 30px;
+                border-width: 1px;
+            }
+            #topnav {
+                list-style-type: none;
+                margin-top: 20px;
+                padding: 0;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            li {
+                display: inline;
+                padding: 10px;
+                
+            }
+            .righttopnav {
+                position: relative;
+                left: 600px;
+            }
+            #signin {
+                border-style: solid;
+                border-radius: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                background-color: #1a73e8;
+                border-color: #1a73e8;
+                color: white;
+            }
+            .buttons {
+                position: relative;
+                top: 280px;
+                left: 335px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                margin: 5px;
+                border-color: #f1f3f5;
+                border-radius: 5px;
+                border-style: solid;
+                
+                
+            }
+            p {
+                position: relative;
+                top: 285px;
+                left: 365px;
+                font-size: 12px;
+            }
+            footer {
+                background-color: rgb(231, 230, 230);
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                opacity: 65%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+            .topfooter {
+                padding-left: 20px;
+            }
+            .bottomfooter {
+                padding-left: 150px;
+            }
+        </style>
     </head>
+    <body>
+        <div>
+            <ul id="topnav">
+                <li>About</li>
+                <li>Store</li>
+                <li class="righttopnav">Gmail</li>
+                <li class="righttopnav">Images</li>
+                <li id="signin" class="righttopnav">Sign in</li>
+            </ul>
+        </div>
+        <div>
+            <img alt="google logo" id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <input id="searchform" type="text">
+            <button class="buttons">Google Search</button>
+            <button class="buttons">I'm Feeling Lucky</button>
+            <p>Google offered in: <a href="https://www.google.com/setprefs?sig=0_XWTZE9ewzibuH6_jOSH440JEg6k%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwjgmJ3vhdrvAhVWrp4KHRdADmIQ2ZgBCA8">Français</a></p>
+        </div>
 
+        <footer>
+            <ul class="topfooter">
+                <li>Canada</li>
+            </ul>
+            <ul class="bottomfooter">
+                <li>Advertising</li>
+                <li>Business</li>
+                <li style="padding-right: 150px;">How Search Works</li>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </footer>
+
+    </body>
 
 </html>
